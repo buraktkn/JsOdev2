@@ -72,6 +72,12 @@ ul li.checked::before {
   color: white;
   text-align: center;
 }
+#task{
+  width: 1000px;
+}
+::placeholder{
+  color: #757575; 
+}
 
 img {
   background-color: white;
@@ -106,6 +112,7 @@ input {
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0;
+  border: none;
 }
 
 .button:hover {

@@ -65,11 +65,13 @@
     </div>
     <div class="container text-center">
       <div class="row justify-content-center main-row">
-        <div class="header ">
+        <div class="header">
           <img src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" class="mb-1" alt=""/>
           <h2>Yapılacaklar Listesi</h2>
-          <input type="text" id="task" placeholder="Bugün ne yapacaksın?"/>
-          <button onclick="newElement()" id="liveToastBtn" class="button add-btn">Ekle</button>
+          <div style="display: flex; justify-content: center;">
+            <input type="text" id="task" placeholder="Bugün ne yapacaksın?"/>
+            <button onclick="newElement()" id="liveToastBtn" class="button add-btn">Ekle</button>
+          </div>
         </div>
       </div>
       <ul id="list"> </ul>
@@ -87,3 +89,8 @@
   </body>
 <script src="index.js"></script>
 </html>
+
+
+
+
+
